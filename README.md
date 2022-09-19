@@ -26,4 +26,4 @@
 - https://freecontent.manning.com/animation-http-1-1-vs-http-2-vs-http-2-with-push/
 - https://http3-explained.haxx.se/en/h3/h3-h2
 - https://avinetworks.com/glossary/ssl-termination/
-- 
+- https://www.ibm.com/docs/en/aix/7.2?topic=protocols-transmission-control-protocol
