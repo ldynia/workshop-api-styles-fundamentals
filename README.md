@@ -27,3 +27,4 @@
 - https://http3-explained.haxx.se/en/h3/h3-h2
 - https://avinetworks.com/glossary/ssl-termination/
 - https://www.ibm.com/docs/en/aix/7.2?topic=protocols-transmission-control-protocol
+- https://ntrs.nasa.gov/api/citations/20080030196/downloads/20080030196.pdf
