@@ -29,3 +29,7 @@
 - https://www.ibm.com/docs/en/aix/7.2?topic=protocols-transmission-control-protocol
 - https://ntrs.nasa.gov/api/citations/20080030196/downloads/20080030196.pdf
 - https://www.json.org/json-en.html
+
+Custom RPC protocols with a binary encoding format can achieve better performance than something generic like JSON over REST. However, **a RESTful API has other significant advantages:** it is good for experimentation and debugging (you can simply make requests to it using a web browser or the command-line tool curl, without any code generation or software installation), it is supported by all mainstream programming languages and platforms, and there is a vast ecosystem of tools available (servers, caches, load balancers, proxies, firewalls, monitoring, debugging tools, testing tools, etc.).
+
+For these reasons, REST seems to be the predominant style for public APIs. The main focus of RPC frameworks is on requests between services owned by the same organization, typically within the same datacenter.
