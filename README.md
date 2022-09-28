@@ -30,6 +30,7 @@
 - https://ntrs.nasa.gov/api/citations/20080030196/downloads/20080030196.pdf
 - https://www.json.org/json-en.html
 - https://www.redhat.com/en/topics/api/what-is-a-rest-api
+- https://en.wikipedia.org/wiki/HATEOAS
 
 # The problems with remote procedure calls (RPCs)
 
