@@ -29,6 +29,7 @@
 - https://www.ibm.com/docs/en/aix/7.2?topic=protocols-transmission-control-protocol
 - https://ntrs.nasa.gov/api/citations/20080030196/downloads/20080030196.pdf
 - https://www.json.org/json-en.html
+- https://www.redhat.com/en/topics/api/what-is-a-rest-api
 
 # The problems with remote procedure calls (RPCs)
 
