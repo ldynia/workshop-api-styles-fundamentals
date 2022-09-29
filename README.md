@@ -31,6 +31,7 @@
 - https://www.json.org/json-en.html
 - https://www.redhat.com/en/topics/api/what-is-a-rest-api
 - https://en.wikipedia.org/wiki/HATEOAS
+- https://medium.com/the-sixt-india-blog/rest-stop-calling-your-http-apis-as-restful-apis-e8336e3e799b
 
 # The problems with remote procedure calls (RPCs)
 
