@@ -36,6 +36,7 @@
 - https://gist.github.com/chrisnicola/1502400
 - https://www.restapitutorial.com/lessons/whatisrest.html
 - https://restfulapi.net/
+- https://stackoverflow.com/questions/34130036/how-to-understand-restful-api-is-stateless
 
 # The problems with remote procedure calls (RPCs)
 
