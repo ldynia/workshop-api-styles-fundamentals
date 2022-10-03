@@ -35,6 +35,7 @@
 - https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.91.9164&rep=rep1&type=pdf
 - https://gist.github.com/chrisnicola/1502400
 - https://www.restapitutorial.com/lessons/whatisrest.html
+- https://restfulapi.net/
 
 # The problems with remote procedure calls (RPCs)
 
