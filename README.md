@@ -37,6 +37,13 @@
 - https://www.restapitutorial.com/lessons/whatisrest.html
 - https://restfulapi.net/
 - https://stackoverflow.com/questions/34130036/how-to-understand-restful-api-is-stateless
+- https://www.redhat.com/en/topics/cloud-native-apps/stateful-vs-stateless
+- https://www.redhat.com/en/topics/api
+- https://www.redhat.com/en/topics/api/what-are-application-programming-interfaces
+- https://restfulapi.net/what-is-an-api/
+- https://nordicapis.com/understanding-idempotency-and-safety-in-api-design/
+- https://krify.co/advantages-and-disadvantages-of-rest-api/
+- https://www.geekboots.com/story/advantages-and-disadvantages-of-restapi-over-soap
 
 # The problems with remote procedure calls (RPCs)
 
