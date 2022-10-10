@@ -44,6 +44,13 @@
 - https://nordicapis.com/understanding-idempotency-and-safety-in-api-design/
 - https://krify.co/advantages-and-disadvantages-of-rest-api/
 - https://www.geekboots.com/story/advantages-and-disadvantages-of-restapi-over-soap
+- https://en.wikipedia.org/wiki/GraphQL
+- https://phil.tech/2017/graphql-vs-rest-overview/
+- https://honest.engineering/posts/why-use-graphql-good-and-bad-reasons
+- https://www.howtographql.com/basics/0-introduction/
+- https://www.howtographql.com/basics/2-core-concepts/
+- https://www.prisma.io/blog/graphql-server-basics-the-schema-ac5e2950214e
+-
 
 # The problems with remote procedure calls (RPCs)
 
