@@ -50,7 +50,8 @@
 - https://www.howtographql.com/basics/0-introduction/
 - https://www.howtographql.com/basics/2-core-concepts/
 - https://www.prisma.io/blog/graphql-server-basics-the-schema-ac5e2950214e
--
+- https://www.javatpoint.com/graphql-advantages-and-disadvantages
+- 
 
 # The problems with remote procedure calls (RPCs)
 
