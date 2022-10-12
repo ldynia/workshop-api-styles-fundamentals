@@ -51,7 +51,11 @@
 - https://www.howtographql.com/basics/2-core-concepts/
 - https://www.prisma.io/blog/graphql-server-basics-the-schema-ac5e2950214e
 - https://www.javatpoint.com/graphql-advantages-and-disadvantages
-- 
+- https://unetworkingab.medium.com/millions-of-active-websockets-with-node-js-7dc575746a01#:~:text=The%20theoretical%20limit%20is%2065k,and%20then%20node%20examples%2FWebSocket.
+- https://en.wikipedia.org/wiki/WebSocket
+- https://en.wikipedia.org/wiki/Network_socket#Types
+- https://hackernoon.com/pros-and-cons-of-websocket-and-eventsource
+- https://www.rfwireless-world.com/Terminology/Advantages-and-Disadvantages-of-Websockets.html
 
 # The problems with remote procedure calls (RPCs)
 
