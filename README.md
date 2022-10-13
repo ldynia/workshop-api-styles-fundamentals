@@ -56,6 +56,8 @@
 - https://en.wikipedia.org/wiki/Network_socket#Types
 - https://hackernoon.com/pros-and-cons-of-websocket-and-eventsource
 - https://www.rfwireless-world.com/Terminology/Advantages-and-Disadvantages-of-Websockets.html
+- https://en.wikipedia.org/wiki/Remote_procedure_call#Message_passing
+-
 
 # The problems with remote procedure calls (RPCs)
 
