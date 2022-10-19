@@ -60,6 +60,7 @@
 - https://cloud.google.com/blog/products/api-management/understanding-grpc-openapi-and-rest-and-when-to-use-them
 - https://www.youtube.com/watch?v=P0a7PwRNLVU
 - https://cloud.google.com/blog/products/api-management/google-cloud-api-design-tips
+- https://www.freecodecamp.org/news/rest-is-the-new-soap-97ff6c09896d/
 
 # The problems with remote procedure calls (RPCs)
 
