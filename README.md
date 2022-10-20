@@ -61,6 +61,9 @@
 - https://www.youtube.com/watch?v=P0a7PwRNLVU
 - https://cloud.google.com/blog/products/api-management/google-cloud-api-design-tips
 - https://www.freecodecamp.org/news/rest-is-the-new-soap-97ff6c09896d/
+- https://www.simplilearn.com/kafka-vs-rabbitmq-article#:~:text=Deciding%20Between%20Kafka%20and%20RabbitMQ&text=While%20Kafka%20is%20best%20suited,for%20both%20Kafka%20and%20RabbitMQ.
+- https://www.upsolver.com/blog/kafka-versus-rabbitmq-architecture-performance-use-case
+- 
 
 # The problems with remote procedure calls (RPCs)
 
