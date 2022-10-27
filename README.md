@@ -3,6 +3,7 @@
 1. OSI
 
 - https://www.infoq.com/presentations/history-api/
+- https://www.youtube.com/watch?v=LzMp6uQbmns
 - https://www.youtube.com/watch?v=aAb7hSCtvGw
 - https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/
 - https://www.geeksforgeeks.org/layers-of-osi-model/
