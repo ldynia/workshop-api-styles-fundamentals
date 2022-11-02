@@ -6,6 +6,7 @@
 - https://www.youtube.com/watch?v=LzMp6uQbmns
 - https://www.youtube.com/watch?v=aAb7hSCtvGw
 - https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/
+- https://www.scaler.com/topics/computer-network/application-layer/
 - https://www.geeksforgeeks.org/layers-of-osi-model/
 - https://infosys.beckhoff.com/english.php?content=../content/1033/tf6310_tc3_tcpip/84246923.html&id=
 - https://www.imperva.com/learn/application-security/osi-model/
