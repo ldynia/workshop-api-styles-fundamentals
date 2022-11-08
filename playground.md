@@ -74,4 +74,49 @@
       }
     }
     ```
-1. [Users repos with fragments](https://gist.github.com/MichaelCurrin/72dea64bad7e285323865788aa5871f6#file-owned_repos-gql-L5)
+1. Users repos with fragments
+
+    ```graphql
+    fragment Repos on RepositoryConnection {
+        nodes {
+            name
+            url
+        }
+    }
+
+    query ownedRepos {
+        viewer {
+            archived: repositories(
+                first: 100
+                ownerAffiliations: OWNER
+                privacy: PUBLIC
+                isLocked: true
+                orderBy: { field: UPDATED_AT, direction: DESC }
+            ) {
+                ...Repos
+            }
+
+        forked: repositories(
+                first: 100
+                ownerAffiliations: OWNER
+                privacy: PUBLIC
+                isFork: true
+                isLocked: false
+                orderBy: { field: UPDATED_AT, direction: DESC }
+            ) {
+                ...Repos
+            }
+
+        original: repositories(
+                first: 100
+                ownerAffiliations: OWNER
+                privacy: PUBLIC
+                isFork: false
+                isLocked: false
+                orderBy: { field: UPDATED_AT, direction: DESC }
+            ) {
+                ...Repos
+            }
+        }
+    }
+    ```
