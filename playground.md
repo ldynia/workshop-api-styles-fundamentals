@@ -28,6 +28,7 @@
         --header "Accept: application/vnd.github+json" \
         --header "Authorization: Bearer $GH_PAT_TOKEN" \
         --url "https://api.github.com/user/repos?type=owner&sort=created&direction=desc"
+    
     curl --request GET \
         --header "Accept: application/vnd.github+json" \
         --header "Authorization: Bearer $GH_PAT_TOKEN" \
