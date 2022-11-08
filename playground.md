@@ -1,5 +1,8 @@
 # GitHub 
 
+- [REST API](https://docs.github.com/en/rest/repos/repos#list-public-repositories)
+- [GraphQL API](https://docs.github.com/en/graphql/overview/explorer)
+
 ## REST API
 
 1. [Create PAT token link](https://github.com/settings/personal-access-tokens/new)
@@ -25,6 +28,10 @@
         --header "Accept: application/vnd.github+json" \
         --header "Authorization: Bearer $GH_PAT_TOKEN" \
         --url "https://api.github.com/user/repos?type=owner&sort=created&direction=desc"
+    curl --request GET \
+        --header "Accept: application/vnd.github+json" \
+        --header "Authorization: Bearer $GH_PAT_TOKEN" \
+        --url "https://api.github.com/users/ldynia/repos?type=owner&sort=created&direction=desc"
     ```
 
 ## GraphQL API
