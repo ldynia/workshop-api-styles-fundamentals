@@ -68,6 +68,7 @@
 - https://www.youtube.com/watch?v=hkXzsB8D_mo
 - https://www.youtube.com/watch?v=6RvlKYgRFYQ
 - https://sookocheff.com/post/networking/how-does-http-2-work/#:~:text=h2%20is%20an%20application%2Dlevel,IP%20connection%20for%20multiple%20requests.
+- https://stoplight.io/api-types/soap-api
 
 # The problems with remote procedure calls (RPCs)
 
