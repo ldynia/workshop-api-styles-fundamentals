@@ -73,6 +73,7 @@
 - https://graphql.org/learn/best-practices/0
 - https://dev.to/pieter/tcp-udp-or-quic-read-this-before-you-choose-432e
 - https://www.youtube.com/watch?v=9Lany3ApvjM
+- https://www.youtube.com/watch?v=idViw4anA6E
 
 # The problems with remote procedure calls (RPCs)
 
