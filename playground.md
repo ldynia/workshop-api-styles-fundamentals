@@ -9,7 +9,7 @@
 1. Export token to environment variable
 
     ```bash
-     export GH_PAT_TOKEN="github_pat_****"
+     export GH_PAT="github_pat_****"
     ```
 
 1. User
@@ -17,7 +17,7 @@
     ```bash
     curl --request GET \
         --header "Accept: application/vnd.github+json" \
-        --header "Authorization: Bearer $GH_PAT_TOKEN" \
+        --header "Authorization: Bearer $GH_PAT" \
         --url "https://api.github.com/user"
     ```
 
@@ -26,12 +26,12 @@
     ```bash
     curl --request GET \
         --header "Accept: application/vnd.github+json" \
-        --header "Authorization: Bearer $GH_PAT_TOKEN" \
+        --header "Authorization: Bearer $GH_PAT" \
         --url "https://api.github.com/user/repos?type=owner&sort=created&direction=desc"
     
     curl --request GET \
         --header "Accept: application/vnd.github+json" \
-        --header "Authorization: Bearer $GH_PAT_TOKEN" \
+        --header "Authorization: Bearer $GH_PAT" \
         --url "https://api.github.com/users/ldynia/repos?type=owner&sort=created&direction=desc"
     ```
 
