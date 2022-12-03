@@ -9,7 +9,8 @@
 1. Export token to environment variable
 
     ```bash
-     export GH_PAT="github_pat_****"
+    docker run -it --rm --name demo alpine ash
+    export GH_PAT="github_pat_****"
     ```
 
 1. User
