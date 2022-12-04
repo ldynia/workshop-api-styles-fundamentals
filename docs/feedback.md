@@ -1,22 +1,14 @@
-# Marcin
+## 4 Dec 2022 - Marcin D.
 
 Presentation:
 - Smile
 - Face camera
-- Don't look closer to read slides.
-- Use gesticulation, looks,
+- Don't look closer to read slides
+- Use gesticulation don't look away
 
 Remove:
 - You'll (Dupplicates)
-
-Transmission style,
-- Don't ssay simple
-
-UDP
-- 8 bytes
-
-Skip Handshake
-https://ably.com/blog
+- Don't say simple
 
 Content:
 - 37 markup language
@@ -24,9 +16,5 @@ Content:
 - 45 Avro - be careful about changes of schema - https://docs.confluent.io/platform/current/schema-registry/index.html#sr-overview
 - 89 gRPC Specification ?
 - 90 interservice comminication - don't talk north south and west east
-
-Remove Technical Vocabulary - make technical presentations
-
-Overall impressopm
-- Fix Rest
-- 
+- Remove Technical Vocabulary
+- Trim REST
