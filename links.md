@@ -1,7 +1,3 @@
-# API Styles Fundamentals
-
-## Links:
-
 1. https://www.infoq.com/presentations/history-api/
 1. https://www.youtube.com/watch?v=LzMp6uQbmns
 1. https://www.youtube.com/watch?v=aAb7hSCtvGw
