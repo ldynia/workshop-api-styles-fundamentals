@@ -16,24 +16,14 @@
 1. User
 
     ```bash
-    curl --request GET \
-        --header "Accept: application/vnd.github+json" \
-        --header "Authorization: Bearer $GH_PAT" \
-        --url "https://api.github.com/user"
+    curl --request GET --header "Accept: application/vnd.github+json" --header "Authorization: Bearer $GH_PAT" --url "https://api.github.com/user"
     ```
 
 1. User's Public Repositories
 
     ```bash
-    curl --request GET \
-        --header "Accept: application/vnd.github+json" \
-        --header "Authorization: Bearer $GH_PAT" \
-        --url "https://api.github.com/user/repos?type=owner&sort=created&direction=desc"
-    
-    curl --request GET \
-        --header "Accept: application/vnd.github+json" \
-        --header "Authorization: Bearer $GH_PAT" \
-        --url "https://api.github.com/users/ldynia/repos?type=owner&sort=created&direction=desc"
+    curl --request GET --header "Accept: application/vnd.github+json" --header "Authorization: Bearer $GH_PAT" --url "https://api.github.com/user/repos?type=owner&sort=created&direction=desc"
+    curl --request GET --header "Accept: application/vnd.github+json" --header "Authorization: Bearer $GH_PAT" --url "https://api.github.com/users/ldynia/repos?type=owner&sort=created&direction=desc"
     ```
 
 ## GraphQL API
