@@ -7,8 +7,8 @@ Search for a live event about API Styles Fundamentals at [learning.oreilly.com](
 ## Table of Contents
 1. [Slides](assets/API_Styles_Fundamentals.pdf)
 1. [Resources](docs/resources.md)
-1. [Feedback](docs/feedback.md)
 1. [Snippets](docs/snippets.md)
+1. [Feedback](docs/feedback.md)
 
 ## Metadata
 Published on 6th December 2022
