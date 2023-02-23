@@ -13,7 +13,7 @@
     }
   },
    "features": {
-     "ghcr.io/customink/codespaces-features/docker-in-docker-amzn:1": {}
-    "ghcr.io/guiyomh/features/vim:0": {}
+     "ghcr.io/customink/codespaces-features/docker-in-docker-amzn:1": {},
+     "ghcr.io/guiyomh/features/vim:0": {}
    }
 }
