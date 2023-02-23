@@ -3,7 +3,7 @@
   "hostRequirements": {
     "cpus": 2,
     "memory": "4gb",
-    "storage": "8gb"
+    "storage": "16gb"
   },
   "customizations": {
     "codespaces": {
