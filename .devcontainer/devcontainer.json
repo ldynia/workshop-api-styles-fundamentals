@@ -1,5 +1,5 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2.0.6-focal",
+  "image": "mcr.microsoft.com/devcontainers/base:alpine",
   "hostRequirements": {
     "cpus": 2,
     "memory": "4gb",
