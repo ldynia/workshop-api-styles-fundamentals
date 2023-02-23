@@ -1,5 +1,5 @@
 {
-	"image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
   "hostRequirements": {
     "cpus": 2,
     "memory": "2gb",
@@ -12,7 +12,8 @@
       ]
     }
   },
-	"features": {
-		"ghcr.io/customink/codespaces-features/docker-in-docker-amzn:1": {}
-	}
+   "features": {
+     "ghcr.io/customink/codespaces-features/docker-in-docker-amzn:1": {}
+    "ghcr.io/guiyomh/features/vim:0": {}
+   }
 }
