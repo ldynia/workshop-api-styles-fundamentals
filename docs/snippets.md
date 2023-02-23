@@ -1,54 +1,73 @@
-# GitHub 
+# Codespaces
 
-- [REST API](https://docs.github.com/en/rest/repos/repos#list-public-repositories)
-- [GraphQL API](https://docs.github.com/en/graphql/overview/explorer)
+```bash
+source /usr/share/bash-completion/completions/git
+```
 
-## REST API
+# REST API
 
-1. [Create PAT token link](https://github.com/settings/personal-access-tokens/new)
+1. Visit [GitHub's REST API](https://docs.github.com/en/rest/repos/repos#list-public-repositories)
+1. Create `7 days` expiration PAT token called `delete_me` in [Settings > Developer settings > Personal access tokens > Fine-grained tokens](https://github.com/settings/personal-access-tokens/new)
+
 1. Export token to environment variable
 
     ```bash
-    docker run -it --rm --name demo alpine ash
     export GH_PAT="github_pat_****"
     ```
 
-1. User
+1. Get user data
 
     ```bash
-    curl --request GET --header "Accept: application/vnd.github+json" --header "Authorization: Bearer $GH_PAT" --url "https://api.github.com/user"
+    curl --request GET \
+      --header "Accept: application/vnd.github+json" \
+      --header "Authorization: Bearer $GH_PAT" \
+      --url "https://api.github.com/user" \
+      | jq '{id, login, url}'
     ```
 
-1. User's Public Repositories
+1. Get user's public repositories
 
     ```bash
-    curl --request GET --header "Accept: application/vnd.github+json" --header "Authorization: Bearer $GH_PAT" --url "https://api.github.com/user/repos?type=owner&sort=created&direction=desc"
-    curl --request GET --header "Accept: application/vnd.github+json" --header "Authorization: Bearer $GH_PAT" --url "https://api.github.com/users/ldynia/repos?type=owner&sort=created&direction=desc"
+    # First method
+    curl --request GET \
+      --header "Accept: application/vnd.github+json" \
+      --header "Authorization: Bearer $GH_PAT" \
+      --url "https://api.github.com/user/repos?type=owner&sort=created&direction=desc" \
+      | jq '.[] | {name, full_name}'
+
+    # Second method
+    curl --request GET \
+      --header "Accept: application/vnd.github+json" \
+      --header "Authorization: Bearer $GH_PAT" \
+      --url "https://api.github.com/users/ldynia/repos?type=owner&sort=created&direction=desc" \
+      | jq '.[] | {name, full_name}'
     ```
 
-## GraphQL API
+# GraphQL API
 
-1. User
+1. Visit [GitHub's GraphQL API - GraphiQL](https://docs.github.com/en/graphql/overview/explorer)
+
+1. Get user data
 
     ```graphql
     query {
       viewer {
-        id
+        databaseId
         login
         url
       }
     }
     ```
 
-1. User's Public Repositories
-    
+1. Get user's public repositories
+
     ```graphql
     query {
       viewer {
         login
         url
         repositories(
-          first:100, 
+          first:100,
           isFork: false,
           ownerAffiliations: OWNER
           privacy: PUBLIC
@@ -65,7 +84,7 @@
       }
     }
     ```
-1. Users repos with fragments
+1. Get user's repositories with fragments
 
     ```graphql
     fragment Repos on RepositoryConnection {
@@ -111,3 +130,7 @@
         }
     }
     ```
+
+    # Clean Up
+
+    1. Delete `delete_me` PAT token in [Settings > Developer settings > Personal access tokens > Fine-grained tokens](https://github.com/settings/tokens?type=beta)

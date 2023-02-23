@@ -1,19 +1,20 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "hostRequirements": {
-    "cpus": 2,
-    "memory": "4gb",
-    "storage": "16gb"
-  },
-  "customizations": {
-    "codespaces": {
-      "openFiles": [
-        "README.md"
-      ]
-    }
-  },
-   "features": {
-     "ghcr.io/customink/codespaces-features/docker-in-docker-amzn:1": {},
-     "ghcr.io/guiyomh/features/vim:0": {}
-   }
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+	"hostRequirements": {
+		"cpus": 2,
+		"memory": "4gb",
+		"storage": "8gb"
+	},
+	"customizations": {
+		"codespaces": {
+			"openFiles": [
+				"README.md",
+        "docs/snippets.md"
+			]
+		}
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+		"ghcr.io/guiyomh/features/vim:0": {}
+	}
 }
