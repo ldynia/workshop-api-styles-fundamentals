@@ -72,3 +72,4 @@
 1. https://www.youtube.com/watch?v=9Lany3ApvjM
 1. https://www.youtube.com/watch?v=idViw4anA6E
 1. https://www.youtube.com/watch?v=vv4y_uOneC0
+1. https://circleci.com/blog/what-is-yaml-a-beginner-s-guide/
