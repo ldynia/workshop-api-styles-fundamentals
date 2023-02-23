@@ -1,0 +1,18 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+  "hostRequirements": {
+    "cpus": 2,
+    "memory": "2gb",
+    "storage": "8gb"
+  },
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "README.md"
+      ]
+    }
+  },
+	"features": {
+		"ghcr.io/customink/codespaces-features/docker-in-docker-amzn:1": {}
+	}
+}
