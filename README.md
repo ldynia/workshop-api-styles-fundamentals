@@ -6,7 +6,7 @@ Search for a live event about API Styles Fundamentals at [learning.oreilly.com](
 
 ## Table of Contents
 
-1. [Slides](assets/API_Styles_Fundamentals.pdf)
+1. [Slides](slides/API_Styles_Fundamentals.pdf)
 1. [Snippets](docs/snippets.md)
 1. [Resources](docs/resources.md)
 1. [Q&A](docs/q&a.md)
