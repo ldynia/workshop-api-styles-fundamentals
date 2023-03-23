@@ -97,7 +97,7 @@ source /usr/share/bash-completion/completions/git
     query ownedRepos {
         viewer {
             archived: repositories(
-                first: 100
+                first: 2
                 ownerAffiliations: OWNER
                 privacy: PUBLIC
                 isLocked: true
@@ -106,27 +106,27 @@ source /usr/share/bash-completion/completions/git
                 ...Repos
             }
 
-        forked: repositories(
-                first: 100
-                ownerAffiliations: OWNER
-                privacy: PUBLIC
-                isFork: true
-                isLocked: false
-                orderBy: { field: UPDATED_AT, direction: DESC }
-            ) {
-                ...Repos
-            }
+          forked: repositories(
+              first: 2
+              ownerAffiliations: OWNER
+              privacy: PUBLIC
+              isFork: true
+              isLocked: false
+              orderBy: { field: UPDATED_AT, direction: DESC }
+          ) {
+              ...Repos
+          }
 
-        original: repositories(
-                first: 100
-                ownerAffiliations: OWNER
-                privacy: PUBLIC
-                isFork: false
-                isLocked: false
-                orderBy: { field: UPDATED_AT, direction: DESC }
-            ) {
-                ...Repos
-            }
+          original: repositories(
+              first: 2
+              ownerAffiliations: OWNER
+              privacy: PUBLIC
+              isFork: false
+              isLocked: false
+              orderBy: { field: UPDATED_AT, direction: DESC }
+          ) {
+              ...Repos
+          }
         }
     }
     ```
