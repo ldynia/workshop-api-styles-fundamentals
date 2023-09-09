@@ -2,8 +2,8 @@
 	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
 	"hostRequirements": {
 		"cpus": 2,
-		"memory": "4gb",
-		"storage": "8gb"
+		"memory": "8gb",
+		"storage": "32gb"
 	},
 	"customizations": {
 		"codespaces": {
